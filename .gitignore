@@ -1,0 +1,19 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Jupyter/Colab checkpoints
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.log
+
+# Ignore large data and outputs (optional for assignment)
+csv_files/*.csv
+outputs/*.png
+outputs/*.jpg
+
+# Python cache
+__pycache__/
+*.pyc
