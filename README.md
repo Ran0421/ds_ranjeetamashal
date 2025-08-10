@@ -14,13 +14,14 @@ The goal is to identify patterns in trading behavior based on prevailing market 
 ---
 
 ## Project Structure
-ds_ranjeetamashal/
-├── notebook_1.ipynb     # Main analysis notebook
-├── csv_files/           # Raw & processed datasets
-├── outputs/             # Visualizations & results
-├── ds_report.pdf        # Final report
-├── README.md            # Project documentation
-└── .gitignore           # Files to ignore in Git
+```ds_ranjeetamashal/
+├── notebook_1.ipynb # Main analysis notebook
+├── csv_files/ # Raw & processed datasets
+├── outputs/ # Visualizations & results
+├── ds_report.pdf # Final report
+├── README.md # Project documentation
+└── .gitignore # Files to ignore in Git 
+```
 
 
 
