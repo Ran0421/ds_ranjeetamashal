@@ -1,3 +1,6 @@
+## Run the Notebook in Google Colab
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ran0421/ds_ranjeetamashal/blob/main/notebook_1.ipynb)
 
 # Trader Behavior vs Market Sentiment Analysis
 
