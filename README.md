@@ -1,26 +1,30 @@
 
+# Trader Behavior vs Market Sentiment Analysis
+
+## Overview
+This project analyzes the relationship between trader behavior and market sentiment using two datasets:
+1. Trader Data – Individual trade records including PnL, fees, size, and direction.
+2. Sentiment Data – Daily Fear & Greed Index classifications.
+
+The goal is to identify patterns in trading behavior based on prevailing market sentiment and uncover potential strategies for smarter decision-making.
+
+---
+
+## Project Structure
+ds_ranjeetamashal/
+├── notebook_1.ipynb     # Main analysis notebook
+├── csv_files/           # Raw & processed datasets
+├── outputs/             # Visualizations & results
+├── ds_report.pdf        # Final report
+├── README.md            # Project documentation
+└── .gitignore           # Files to ignore in Git
+
 
 
 ## Data Sources
 - Trader Data: Trade details including PnL, fees, direction, and execution prices.
 - Sentiment Data: Daily sentiment classification from historical market data.
 - Merged Data: Timestamp alignment ensures each trade is matched to the prevailing sentiment.
-
-
-
-## Visual Insights
-
-### 1️.Trades Count by Sentiment
-![Trades Count by Sentiment](outputs/trades_count_by_sentiment.png)
-
-### 2️.Average PnL by Sentiment
-![Average PnL by Sentiment](outputs/avg_pnl_by_sentiment.png)
-
-### 3️.Average PnL: Profitable vs Not
-![Average PnL Profitable vs Not](outputs/avgpnl_profitable_vs_not_by_sentiment.png)
-
-### 4️. PnL Distribution: Fear vs Greed
-![PnL Distribution](outputs/pnl_distribution_fear_vs_greed.png)
 
 
 
